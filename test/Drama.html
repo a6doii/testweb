@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+  </head>
+  <body>
+    <div class="logo" class="bookly"><h1>Bookly</h1></div>
+    <nav>
+      <a href="Home.html" class="home">Home</a>
+      <a href="TopRated.html" class="top-rated">Top Rated</a>
+      <a href="my-books.html" class="my-books">My Books</a>
+      <a href="add-book.html" class="add-book"> Add Book </a>
+      <a href="Log-in.html" class="log-in"> Log Out</a>
+    </nav>
+    <div class="search">
+      <label for="searchbutton"> Search</label>
+      <input
+        type="text"
+        id="searchbutton"
+        placeholder="Enter book or author name"
+      />
+      <select id="pageLinks" onchange="window.location.href=this.value;">
+        <option value="#" selected disabled id="1">Categories</option>
+        <option value="Historical-Books.html">Historical</option>
+        <option value="Philosophical-Books.html">Philosophical</option>
+        <option value="Romantic-Books.html">Romantic</option>
+        <option value="Horror.html">Horror</option>
+        <option value="Fantasy.html">Fantasy</option>
+        <option value="Poetry.html">Poetry</option>
+        <option value="Mystery-and-Crime.html">Crime and Mystery Books</option>
+      </select>
+    </div>
+    <main>
+      <div class="Drama-books">
+        <!--the figure1-Drama-page -->
+        <div class="The-Tempest">
+          <figure id="The-Tempest" class="figure1-Drama-page">
+            <a href="">
+              <img
+                src="The-Tempest.jpeg"
+                width="250"
+                height="350"
+                alt="The-Tempest book"
+              />
+            </a>
+            <div class="button">
+              <p id="element1-Drama-page">Not Borrowed</p>
+              <button id="borrow-button1-Drama-page">Borrow Element</button>
+              <div class="add-book">
+                <a href="add-book.html"> <button>Edit</button></a>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <!--the 2 book-->
+        <div class="Little-Women">
+          <figure id="Little-Women" class="figure2-Drama-page">
+            <a href="">
+              <img
+                src="Little-Women.jpeg"
+                height="350"
+                alt="Little-Women book"
+              />
+            </a>
+            <div class="button">
+              <p id="element2-Drama-page">Not Borrowed</p>
+              <button id="borrow-button2-Drama-page">Borrow Element</button>
+              <div class="add-book">
+                <a href="add-book.html"> <button>Edit</button></a>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <!--the 3  book-->
+        <div class="OTHELLO">
+          <figure id="OTHELLO" class="figure3-Drama-page">
+            <a href="">
+              <img
+                src="OTHELLO.jpeg"
+                width="250"
+                height="350"
+                alt="TOTHELLO Book"
+              />
+            </a>
+
+            <div class="button">
+              <p id="element3-Drama-page">Not Borrowed</p>
+              <button id="borrow-button3-Drama-page">Borrow Element</button>
+              <div class="add-book">
+                <a href="add-book.html"> <button>Edit</button></a>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <!--the 4  book-->
+        <div class="MockingBrid">
+          <figure id="MockingBrid" class="figure4-Drama-page">
+            <a href="">
+              <img
+                src="MockingBrid.jpeg"
+                width="250"
+                height="350"
+                alt="MockingBrid book"
+              />
+            </a>
+
+            <div class="button">
+              <p id="element4-Drama-page">Not Borrowed</p>
+              <button id="borrow-button4-Drama-page">Borrow Element</button>
+              <div class="add-book">
+                <a href="add-book.html"> <button>Edit</button></a>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <!--the 5  book-->
+        <div class="Kite_runner">
+          <figure id="Kite_runner" class="figure5-Drama-page">
+            <a href="">
+              <img
+                src="Kite_runner.jpg"
+                width="250"
+                height="350"
+                alt="Kite_runner Book"
+              />
+            </a>
+
+            <div class="button">
+              <p id="element5-Drama-page">Not Borrowed</p>
+              <button id="borrow-button5-Drama-page">Borrow Element</button>
+              <div class="add-book">
+                <a href="add-book.html"> <button>Edit</button></a>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <!--the 6  book-->
+        <div class="Hamlet">
+          <figure id="Hamlet" class="figure6-Drama-page">
+            <a href="">
+              <img
+                src="Hamlet.jpeg"
+                width="250"
+                height="350"
+                alt="Hamlet Book"
+              />
+            </a>
+
+            <div class="button">
+              <p id="element6-Drama-page">Not Borrowed</p>
+              <button id="borrow-button6-Drama-page">Borrow Element</button>
+              <div class="add-book">
+                <a href="add-book.html"> <button>Edit</button></a>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <!--the 7  book-->
+        <div class="Waiting-for-Godot">
+          <figure id="Waiting-for-Godot" class="figure7-Drama-page">
+            <a href="">
+              <img
+                src="Waiting-for-Godot.jpeg"
+                width="250"
+                height="350"
+                alt="Waiting-for-Godot Book"
+              />
+            </a>
+
+            <div class="button">
+              <p id="element7-Drama-page">Not Borrowed</p>
+              <button id="borrow-button7-Drama-page">Borrow Element</button>
+              <div class="add-book">
+                <a href="add-book.html"> <button>Edit</button></a>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <!--the 8  book-->
+        <div class="The-Great-Gatsby">
+          <figure id="The-Great-Gatsby" class="figure8-Drama-page">
+            <a href="">
+              <img
+                src="The-Great-Gatsby.jpeg"
+                width="250"
+                height="350"
+                alt="The-Great-Gatsby Book"
+              />
+            </a>
+
+            <div class="button">
+              <p id="element8-Drama-page">Not Borrowed</p>
+              <button id="borrow-button8-Drama-page">Borrow Element</button>
+              <div class="add-book">
+                <a href="add-book.html"> <button>Edit</button></a>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <!--the 9  book-->
+        <div class="The-Tempest">
+          <figure id="The-Tempest" class="figure9-Drama-page">
+            <a href="">
+              <img
+                src="The-Tempest.jpeg"
+                width="250"
+                height="350"
+                alt="The-Tempest Book"
+              />
+            </a>
+
+            <div class="button">
+              <p id="element9-Drama-page">Not Borrowed</p>
+              <button id="borrow-button9-Drama-page">Borrow Element</button>
+              <div class="add-book">
+                <a href="add-book.html"> <button>Edit</button></a>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <!--the 10  book-->
+        <div class="Romeo-and-juliet">
+          <figure id="Romeo-and-juliet" class="figure10-Drama-page">
+            <a href="">
+              <img
+                src="Romeo-and-juliet.jpeg"
+                width="250"
+                height="350"
+                alt="Romeo-and-juliet Book"
+              />
+            </a>
+
+            <div class="button">
+              <p id="element10-Drama-page">Not Borrowed</p>
+              <button id="borrow-button10-Drama-page">Borrow Element</button>
+              <div class="add-book">
+                <a href="add-book.html"> <button>Edit</button></a>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <!--the 11  book-->
+        <div class="AStreetcar-Named-Desire">
+          <figure id="AStreetcar-Named-Desire" class="figure11-Drama-page">
+            <a href="">
+              <img
+                src="AStreetcar-Named-Desire.jpeg"
+                width="250"
+                height="350"
+                alt="AStreetcar-Named-Desire Book"
+              />
+            </a>
+
+            <div class="button">
+              <p id="element11-Drama-page">Not Borrowed</p>
+              <button id="borrow-button11-Drama-page">Borrow Element</button>
+              <div class="add-book">
+                <a href="add-book.html"> <button>Edit</button></a>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <!--the 12  book-->
+        <div class="DollsHouse">
+          <figure id="DollsHouse" class="figure12-Drama-page">
+            <a href="">
+              <img
+                src="ADollsHouse.jpg"
+                width="250"
+                height="350"
+                alt="DollsHouse Book"
+              />
+            </a>
+
+            <div class="button">
+              <p id="element12-Drama-page">Not Borrowed</p>
+              <button id="borrow-button12-Drama-page">Borrow Element</button>
+              <div class="add-book">
+                <a href="add-book.html"> <button>Edit</button></a>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <!-- the class of all books -->
+      </div>
+    </main>
+    <footer>
+      <a href="#contact">Contact</a>
+      <a href="Aboutus.html" target="_blank">About us</a>
+    </footer>
+  </body>
+</html>
